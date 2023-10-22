@@ -3,6 +3,7 @@ from email.message import  EmailMessage
 import imghdr
 import os
 
+
 #sender and receiver information
 sender_email = os.environ.get("EMAIL")
 email_password = os.environ.get("PASSWORD")  #go to applicaion password in google and generate one. note: it is not your regular email password
